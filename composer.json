@@ -1,23 +1,11 @@
 {
   "name": "zanysoft/laravel-zip",
   "description": "laravel-zip is the world's leading zip utility for file compression and backup.",
-  "license": "MIT",
-  "homepage": "http://www.zanysoft.net",
-  "authors": [
-    {
-      "name": "Zany Soft",
-      "email": "info@zanysoft.net",
-      "homepage": "http://www.zanysoft.net"
-    }
-  ],
   "keywords": [
     "laravel-zip",
     "laravel",
     "laravel8",
     "laravel9",
-    "laravel10",
-    "laravel11",
-    "laravel12",
     "zip",
     "unzip",
     "extract",
@@ -26,15 +14,25 @@
     "multiple",
     "merge"
   ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zany Soft",
+      "email": "zanysoft@outlook.com"
+    }
+  ],
+  "support": {
+    "email": "zanysoft@outlook.com"
+  },
   "require": {
-    "php": ">=7.4",
-    "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
+    "php": ">=8.1",
+    "illuminate/support": "^10.0|^11.0|^12.0",
     "ext-zip": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^9.5",
+    "phpunit/phpunit": "^10.0",
     "scrutinizer/ocular": "^1.9",
-    "orchestra/testbench": "^6.24"
+    "orchestra/testbench": "^8.0"
   },
   "autoload": {
     "psr-4": {
